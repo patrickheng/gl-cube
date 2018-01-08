@@ -47,7 +47,6 @@
     ]
   },
   "standard": {
-    "globals": [
-    ]
+    "globals": []
   }
 }
