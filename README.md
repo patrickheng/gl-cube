@@ -12,9 +12,6 @@ npm install
 
 ## Usage
 
-A **simple example** (see the picture above) is included as a demonstration.<br />
-Now it's time to be creative and imagine something on your own !
-
 ### Development
 
 It starts a [budō](https://github.com/mattdesl/budo) server with LiveReload and open [http://localhost:9966/](http://localhost:9966/) for you.
