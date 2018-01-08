@@ -146,7 +146,7 @@ class WebGL {
     this._gl.uniformMatrix4fv(this._gl.getUniformLocation(this._program, 'uModelMatrix'), false, this._modelMatrix)
 
     this._gl.clear(this._gl.COLOR_BUFFER_BIT | this._gl.DEPTH_BUFFER_BIT)
-    this._gl.clearColor(1, .5, 1, 1)
+    this._gl.clearColor()
     this._gl.drawElements(this._gl.TRIANGLES, 36, this._gl.UNSIGNED_SHORT, 0)
   }
 }
